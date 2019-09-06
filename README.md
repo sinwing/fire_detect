@@ -5,4 +5,4 @@
 
 downlaod path : https://drive.google.com/open?id=1aSM4yNMfUGpy3dltaaUSS9yC8W9japQu
 
-django 설치후 디렉토리 coldeyes.bat 
+django 설치후 디렉토리 coldeyes.bat 실행 , 서버 
