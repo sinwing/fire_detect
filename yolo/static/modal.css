@@ -1,0 +1,101 @@
+mo_red {
+  text-decoration-color: #FF0000;
+  text-decoration-style: solid;
+}
+
+
+
+.modal_class {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 10; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal_class-content {
+  position: absolute;
+  background-color: #fefefe;
+  margin-top:8%;
+  margin-left:38%;
+  padding: 0;
+  width: 444px; /* Full width */
+  height: 250px; /* Full height */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  background-image : url("/static/images/fire.gif");
+  background-repeat:no-repeat;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close_class {
+  color:white;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  margin-right:12px;
+}
+
+.close_class:hover,
+.close_class:focus {
+  color:orangered;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal_class-header {
+  color: white;
+}
+
+.modal_class-body {
+  margin-top:70px;
+  color: white;
+}
+.modal_class-footer {
+  color: white;
+}
+.btn_class{
+  background-color : white;
+  color:orangered;
+  margin-top:10px;
+  width:60px;
+  height:30px;
+  font-size:15px;
+  border-style:none;
+  margin-left: 45%;
+}
+
+.btn_class:hover,
+.btn_class:focus{
+  color:white;
+  background-color:orangered;
+  text-decoration: none;
+  cursor: pointer;
+  border-style:none;
+}
+
+.w3-container{
+  background-image:  url("/static/images/cellphone.png");
+  background-repeat:no-repeat;
+}
